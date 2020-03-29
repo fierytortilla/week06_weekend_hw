@@ -1,3 +1,36 @@
 body {
     color: green;
+    background-color: indigo;
+    padding: 100px;
+}
+
+h1 {
+    padding-left: 30px;
+    font-family: "Comic Sans";
+}
+
+h1, h2 {
+    font-family: "Comic Sans";
+}
+
+.favBandsList {
+    padding: 100px;
+}
+
+h2 {
+text-decoration: underline;
+}
+
+button {
+    color: red;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+img {
+    margin-top : 40px;
 }
