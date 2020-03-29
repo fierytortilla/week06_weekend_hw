@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Entering Favorite Bands</title>
+</head>
+<body>
+    <h1 id="heading">Enter Your List of Favorite Bands</h1>
+
+    <!-- <h2>Forms</h2> -->
+    <form id="band-form">
+        <!-- <div class="form-wrapper"> -->
+            <label for="band_name">Band Name:</label>
+            <input type="text" id="band_name">
+            <label for="place_of_origin">Place of Origin:</label>
+            <input type="text" id="place_of_origin">
+        <!-- </div> -->
+
+
+    <h2>Genre</h2>
+    <select id="genre">
+        <option disabled selected>So what do you think the genre is?</option>
+        <option value="Hawaiian Black Metal">Hawaiian Black Metal</option>
+        <option value="Post Industrial Dronegaze">Post Industrial Dronegaze</option>
+        <option value="Heaven Metal">Heaven Metal</option>
+        <option value="Electro Neofolkfunk">Electro Neofolkfunk</option>
+        <option value="Blackened Crunkcore">Blackened Crunkcore</option>
+        <option value="Progressive Dreamfunkwave">Progressive Dreamfunkwave</option>
+        <option value="Absolutely Not">Absolutely Not</option>
+    </select>
+
+    <h2>Current Status of Band</h2>
+    <div>
+        <input type="radio" id= "active" name="status" value= "active">
+            <label for="active">Active</label>
+        <input type="radio" id="hiatus" name="status" value= "hiatus">
+            <label for="hiatus">On hiatus</label>
+        <input type="radio" id="broken_up" name="status" value="broken_up">
+            <label for="broken_up">Broken up</label>
+            <!-- <pre id="log">
+            </pre> -->
+    </div>
+    <button type="submit" value= "save">Submit Band</button>
+    </form>
+
+<h1>Favorite Bands List</h1>
+    <ul id="favorite-bands-list"></ul>
+
+    <h2>Do you want to revise your entire music taste?</h2>
+    <button id="delete-all" type="button">Delete all bands from list</button>
+    <!-- <p id="button-result">That button has not been clicked.</p> -->
+    
+</body>
+</html>
